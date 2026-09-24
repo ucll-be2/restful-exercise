@@ -1,0 +1,34 @@
+opencollection: 1.0.0
+
+info:
+  name: Backend 2 - RESTful API's
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ""
+      port: ""
+      auth:
+        username: ""
+        password: ""
+      bypassProxy: ""
+
+request:
+  variables:
+    - name: host
+      value: http://localhost:8080
+
+docs:
+  content: |-
+    # RESTful API's
+
+    De voorbeelden in deze collectie zijn niet mooi RESTful. Pas
+    de voorbeelden aan zodat deze wél RESTful zijn.
+  type: text/markdown
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git
