@@ -1,11 +1,11 @@
 info:
-  name: Delete user
+  name: Delete user with id 1
   type: http
   seq: 4
 
 http:
   method: POST
-  url: "{{host}}/deleteUser"
+  url: "{{host}}/deleteUse"
   body:
     type: json
     data: |-
